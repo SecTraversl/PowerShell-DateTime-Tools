@@ -65,7 +65,7 @@
 
 function Convert-DateTimeToUnixTime {
   [CmdletBinding()]
-  [alias('ConvertToEpochTime', 'ConvertToUnixTime')]
+  [alias('ConvertToEpochTime', 'ConvertToUnixTime', 'ConvertTo-UnixTime')]
   param (
     [Parameter(HelpMessage = 'Reference the Date/Time string that you want to convert to a Unix / Epoch timestamp {e.g. "1597384447"}')]
     [string]
